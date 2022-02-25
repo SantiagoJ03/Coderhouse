@@ -53,6 +53,7 @@ nav ul li a {
     font-family: 'Supermercado One', cursive;
     text-align: center;
     border: 1px solid black;
+    background: linear-gradient(to right, #bf00ff, #9900cc);;
     grid-area: titulo;
 }
 
@@ -145,10 +146,15 @@ footer img {
 }
 
 .minimapa {
-	height: 150px ;
+	height: 150px;
 	width: 150px;
-}
+	transition: all 2s;
 
+}
+.minimapa:hover {
+	width: 250px;
+	height: 250px;
+}
 
 
 

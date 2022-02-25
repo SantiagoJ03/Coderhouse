@@ -53,7 +53,6 @@ nav ul li a {
     font-family: 'Supermercado One', cursive;
     text-align: center;
     border: 1px solid black;
-    background: linear-gradient(to right, #bf00ff, #9900cc);
     grid-area: titulo;
 }
 

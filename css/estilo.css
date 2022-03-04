@@ -19,6 +19,7 @@
 .producto1 {
 	height: 210px;
 	width: 220px;
+	
 }
 .producto2{
 	height: 210px;
@@ -42,12 +43,15 @@
 }
 .producto1, .producto2, .producto3, .producto4, .producto5, .producto6 {
 	border: 1px solid black;
+	border-radius: 10px;
+	margin-bottom: 5px;
 }
 
 
 
 
 /*FOOTER*/
+
 .minimapa {
 	height: 200px;
 	width: 200px;

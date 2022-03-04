@@ -1,16 +1,20 @@
 /*HEADER*/
 .navbar-collapse {
 	justify-content: flex-end;
+}
 
-
-
+.navlink:hover {
+	background-color: red;
+  
+}
 
 /*TITULO*/	
-}
+
 .titulo {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	background: linear-gradient(to right, #bf00ff, #9900cc);
 }
 
 

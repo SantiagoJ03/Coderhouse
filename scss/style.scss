@@ -1,0 +1,383 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}    
+/*TRAIGO NAV*/
+@import "nav";
+
+/*MAIN INDEX*/                                             
+.mainIndex {
+	/*display: grid;
+	grid-template-areas:"fondo fondo fondo" "titulo titulo titulo" "fotos fotos fotos";
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto auto auto;*/
+
+
+}
+
+.fondoIndex {
+	width: 100%;
+}
+
+
+
+
+.productos {
+	/*display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;*/
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: auto auto auto;
+	grid-template-areas: "titulo titulo titulo" "f1 f2 f3" "f4 f5 f6" ;
+	justify-items: center;
+	align-items: center;
+
+}
+.productosPopu {
+	font-family: 'Lato', sans-serif;
+    font-family: 'Source Serif 4', sans-serif;
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    border: 1px solid black;
+    background: linear-gradient(to right, #bf00ff, #9900cc);;
+    grid-area: titulo;
+}
+
+main div img {
+	margin: 3px;
+	border-radius: 10%;
+}
+
+.producto1 {
+	height: 210px;
+	width: 220px;
+	border: 1px solid black;
+    grid-area: f1;
+
+}
+.producto2 {
+	height: 210px;
+	width: 220px;
+	border: 1px solid black;
+    grid-area: f2;
+}
+ 
+.producto3 {
+	height: 210px;
+	width: 220px;
+	border: 1px solid black;
+    grid-area: f3;
+
+}
+
+.producto4 {
+	height: 210px;
+	width: 220px;
+	border: 1px solid black;
+    grid-area: f4;
+
+}
+
+.producto5 {
+	height: 210px;
+	width: 220px;
+	border: 1px solid black;
+    grid-area: f5;
+
+}
+
+.producto6 {
+	height: 210px;
+	width: 220px;
+	border: 1px solid black;
+    grid-area: f6;
+
+}
+
+.fondo {
+	grid-area: fondo;
+	height: auto;
+    width: 100%;
+
+}
+
+/*MAIN CONTACTO*/
+.mainContacto{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto auto auto; 
+	grid-template-areas: "titulo titulo" "form telefono" "form mail";
+	justify-content: center;
+	align-items: center;
+}
+.tituContacto{
+	grid-area: titulo;
+	margin-left: 10px;
+}
+form {
+	grid-area: form;
+	margin-left: 10px;
+}
+.phoneContacto {
+	grid-area: telefono;
+	display: flex;
+	align-items: center;
+}
+.mailContacto{
+	grid-area: mail;
+	display: flex;
+	align-items: center;
+}
+
+/*MAIN PRODUCTOS*/
+.produ1 {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+.produ2 {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+.produ3 {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+.produ4 {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+.produ5 {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+.produ6 {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+.produ7 {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+.produ8 {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+.produ9 {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+.produ10 {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+.produ11 {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+.produ12 {
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+}
+.familia {
+	height: 400px;
+	width: 400px;
+}
+.ciudad {
+	height: 400px;
+	width: 400px;
+}
+/*TRAIGO FOOTER*/
+@import "footer";
+
+
+/*MEDIA QUERIE DESKTOP INDEX*/
+@media only screen and (min-width: 1024px){
+	header {
+		display: flex;
+		justify-content: space-between;
+}
+
+/*DESKTOP CONTACTO*/
+
+}
+
+
+
+
+
+/*MEDIA QUERIE TABLET INDEX*/
+
+@media only screen and (min-width: 769px) and (max-width: 1023px){
+	header {
+	display: flex;
+
+}
+header a img{
+	position: relative;
+	right: 170px;
+}
+nav ul {
+	
+}
+nav ul li {
+	list-style: none;
+	
+}
+/*MAIN TABLET*/
+.mainIndex {
+	display: grid;
+	grid-template-areas:"fondo fondo" "titulo titulo" "fotos fotos";
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: auto auto auto;
+
+
+}
+.fondoIndex {
+	grid-area: fondo;
+	width: 100%;
+}
+
+
+
+.productosPopu {
+	font-family: 'Lato', sans-serif;
+    font-family: 'Source Serif 4', sans-serif;
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    border: 1px solid black;
+    background-color: blueviolet;
+    grid-area: titulo;
+}
+.productos {
+	grid-area: fotos;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.producto1 {
+	height: 310px;
+	width: 320px;
+	border: 1px solid black;
+    grid-area: producto1;
+
+}
+.producto2 {
+	height: 310px;
+	width: 320px;
+	border: 1px solid black;
+    grid-area: producto2;
+}
+ 
+.producto3 {
+	height: 310px;
+	width: 320px;
+	border: 1px solid black;
+    grid-area: producto3;
+
+}
+
+.producto4 {
+	height: 310px;
+	width: 320px;
+	border: 1px solid black;
+    grid-area: producto4;
+
+}
+
+.producto5 {
+	height: 310px;
+	width: 320px;
+	border: 1px solid black;
+    grid-area: producto5;
+
+}
+
+.producto6 {
+	height: 310px;
+	width: 320px;
+	border: 1px solid black;
+    grid-area: producto6;
+
+}
+
+/*FOOTER MEDIA QUERIE TABLET*/
+
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 10px;
+}
+
+}
+footer img {
+	width: 70px;
+	height: 70px;
+	background-color: #eee6ff;
+	border-radius: 10%;
+}
+
+
+.logoRRSS {
+	height: 30px;
+	width: 30px;
+}
+
+.minimapa {
+	height: 150px ;
+	width: 150px;
+}
+/*TABLET CONTACTO*/
+
+/*.mainContacto {
+	display: grid;
+	grid-template-areas: "titu titu titu" "form telefono mail";
+	grid-template-columns: 3fr;
+	grid-template-rows: auto auto;
+}
+.tituContacto {
+	grid-area: titu;
+}
+
+form {
+	grid-area: form;
+	margin: 5px;
+
+}
+
+.phoneContacto {
+	grid-area: telefono;
+	display: flex;
+	align-items: center;
+}
+
+.mailContacto {
+	grid-area: mail;
+	display: flex;
+	align-items: center;
+}
+
+.fooContacto {
+	margin: 10px;
+	display: flex;
+
+}
+}
+	*/	
+

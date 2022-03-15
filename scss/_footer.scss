@@ -1,0 +1,32 @@
+/*FOOTER*/
+
+
+footer {
+	display: flex;
+	margin: 10px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+footer img {
+	width: 70px;
+	height: 70px;
+	background-color: #eee6ff;
+	border-radius: 10%;
+	align-self: center;
+}
+
+.logoRRSS {
+	height: 30px;
+	width: 30px;
+}
+
+.minimapa {
+	height: 150px;
+	width: 150px;
+	transition: all 2s;
+
+}
+.minimapa:hover {
+	width: 250px;
+	height: 250px;
+}

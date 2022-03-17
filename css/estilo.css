@@ -72,40 +72,25 @@ main div img {
   margin: 3px;
   border-radius: 10%; }
 
-.producto1 {
+.producto1, .producto2, .producto3, .producto4, .producto5, .producto6 {
   height: 210px;
   width: 220px;
   border: 1px solid black;
   grid-area: f1; }
 
 .producto2 {
-  height: 210px;
-  width: 220px;
-  border: 1px solid black;
   grid-area: f2; }
 
 .producto3 {
-  height: 210px;
-  width: 220px;
-  border: 1px solid black;
   grid-area: f3; }
 
 .producto4 {
-  height: 210px;
-  width: 220px;
-  border: 1px solid black;
   grid-area: f4; }
 
 .producto5 {
-  height: 210px;
-  width: 220px;
-  border: 1px solid black;
   grid-area: f5; }
 
 .producto6 {
-  height: 210px;
-  width: 220px;
-  border: 1px solid black;
   grid-area: f6; }
 
 .fondo {
@@ -141,62 +126,7 @@ form {
   align-items: center; }
 
 /*MAIN PRODUCTOS*/
-.produ1 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black; }
-
-.produ2 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black; }
-
-.produ3 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black; }
-
-.produ4 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black; }
-
-.produ5 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black; }
-
-.produ6 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black; }
-
-.produ7 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black; }
-
-.produ8 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black; }
-
-.produ9 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black; }
-
-.produ10 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black; }
-
-.produ11 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black; }
-
-.produ12 {
+.produ1, .produ2, .produ3, .produ4, .produ5, .produ6, .produ7, .produ8, .produ9, .produ10, .produ11, .produ12 {
   height: 200px;
   width: 200px;
   border: 1px solid black; }
@@ -215,7 +145,11 @@ footer {
   display: flex;
   margin: 10px;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  /*display: flex;
+	margin: 10px;
+	flex-direction: row;
+	justify-content: space-between;*/ }
 
 footer img {
   width: 70px;
@@ -276,7 +210,7 @@ footer img {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly; }
-  .producto1 {
+  .producto1, .producto2, .producto3, .producto4, .producto5, .producto6 {
     height: 310px;
     width: 320px;
     border: 1px solid black;

@@ -1,11 +1,21 @@
 /*FOOTER*/
-
+$footer:(
+	flex:flex,
+    10px:10px,
+    row:row,
+    between:space-between
+);
 
 footer {
-	display: flex;
+    display: map-get($footer,flex);
+    margin: map-get($footer,10px);
+    flex-direction: map-get($footer,row);
+    justify-content: map-get($footer,between);
+	
+	/*display: flex;
 	margin: 10px;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-between;*/
 }
 footer img {
 	width: 70px;

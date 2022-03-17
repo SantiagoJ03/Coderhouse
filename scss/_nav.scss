@@ -1,10 +1,13 @@
  /*HEADER*/
+@mixin header($display,$justify,$align,$wrap,$margBottom){
+	display:$display;
+	justify-content: $justify;
+	align-items: $align;
+	flex-wrap: $wrap;
+	margin-bottom: $margBottom;
+}
 header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
-	margin-bottom: 10px;
+	@include header(flex,space-between,center,wrap,10px);
 }
 header a {
 	margin-left: 15px;

@@ -58,40 +58,30 @@ main div img {
 
 }
 .producto2 {
-	height: 210px;
-	width: 220px;
-	border: 1px solid black;
+	@extend .producto1;
     grid-area: f2;
 }
  
 .producto3 {
-	height: 210px;
-	width: 220px;
-	border: 1px solid black;
+	@extend .producto1;
     grid-area: f3;
 
 }
 
 .producto4 {
-	height: 210px;
-	width: 220px;
-	border: 1px solid black;
+	@extend .producto1;
     grid-area: f4;
 
 }
 
 .producto5 {
-	height: 210px;
-	width: 220px;
-	border: 1px solid black;
+	@extend .producto1;
     grid-area: f5;
 
 }
 
 .producto6 {
-	height: 210px;
-	width: 220px;
-	border: 1px solid black;
+	@extend .producto1;
     grid-area: f6;
 
 }
@@ -138,59 +128,37 @@ form {
 	border: 1px solid black;
 }
 .produ2 {
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
+	@extend .produ1;
 }
 .produ3 {
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
+	@extend .produ1;
 }
 .produ4 {
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
+	@extend .produ1;
 }
 .produ5 {
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
+	@extend .produ1;
 }
 .produ6 {
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
+	@extend .produ1;
 }
 .produ7 {
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
+	@extend .produ1;
 }
 .produ8 {
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
+	@extend .produ1;
 }
 .produ9 {
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
+	@extend .produ1;
 }
 .produ10 {
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
+	@extend .produ1;
 }
 .produ11 {
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
+	@extend .produ1;
 }
 .produ12 {
-	height: 200px;
-	width: 200px;
-	border: 1px solid black;
+	@extend .produ1;
 }
 .familia {
 	height: 400px;

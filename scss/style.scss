@@ -6,21 +6,6 @@
 @import "nav";
 
 /*MAIN INDEX*/                                             
-.mainIndex {
-	/*display: grid;
-	grid-template-areas:"fondo fondo fondo" "titulo titulo titulo" "fotos fotos fotos";
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: auto auto auto;*/
-
-
-}
-
-.fondoIndex {
-	width: 100%;
-}
-
-
-
 
 .productos {
 	/*display: flex;
@@ -85,13 +70,10 @@ main div img {
     grid-area: f6;
 
 }
-
-.fondo {
-	grid-area: fondo;
-	height: auto;
-    width: 100%;
-
+.fondoIndex {
+	width: 100%;
 }
+
 
 /*MAIN CONTACTO*/
 .mainContacto{
@@ -171,11 +153,21 @@ form {
 /*TRAIGO FOOTER*/
 @import "footer";
 
+/*MAIN FAQ*/
 
-/*MEDIA QUERIE MOBILE INDEX*/
+.tituFAQ {
+	margin: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+.preguntas {
+	margin: 5px;
+}
+
+/*MEDIA QUERIE MOBILE FAQ*/
 @media only screen and (max-width: 320px){
 	header {
-		
+		display: flex;
+		justify-content: center;
 	}
 	.productos {
 	display: grid;
@@ -316,41 +308,5 @@ footer img {
 	height: 150px ;
 	width: 150px;
 }
-/*TABLET CONTACTO*/
 
-/*.mainContacto {
-	display: grid;
-	grid-template-areas: "titu titu titu" "form telefono mail";
-	grid-template-columns: 3fr;
-	grid-template-rows: auto auto;
-}
-.tituContacto {
-	grid-area: titu;
-}
-
-form {
-	grid-area: form;
-	margin: 5px;
-
-}
-
-.phoneContacto {
-	grid-area: telefono;
-	display: flex;
-	align-items: center;
-}
-
-.mailContacto {
-	grid-area: mail;
-	display: flex;
-	align-items: center;
-}
-
-.fooContacto {
-	margin: 10px;
-	display: flex;
-
-}
-}
-	*/	
 

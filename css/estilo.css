@@ -26,43 +26,10 @@ nav ul {
       nav ul li a:hover {
         color: violet; }
 
-/*nav ul li {
-	list-style: none;
-	padding-right: 9px;
-	margin-left: 13px;
+.navbar-collapse {
+  justify-content: flex-end; }
 
-}*/
-/*nav ul li a {
-	text-decoration: none;
-	color: #4d4dff;
-     
-}*/
-/*MAIN INDEX*/
-.productos {
-  /*display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-evenly;*/
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: auto auto auto;
-  grid-template-areas: "titulo titulo titulo" "f1 f2 f3" "f4 f5 f6";
-  justify-items: center;
-  align-items: center; }
-
-.productosPopu {
-  font-family: 'Lato', sans-serif;
-  font-family: 'Source Serif 4', sans-serif;
-  font-family: 'Supermercado One', cursive;
-  text-align: center;
-  border: 1px solid black;
-  background: linear-gradient(to right, #bf00ff, #9900cc);
-  grid-area: titulo; }
-
-main div img {
-  margin: 3px;
-  border-radius: 10%; }
-
+/*MAIN INDEX HECHO CON BOOTSTRAP*/
 .producto1, .producto2, .producto3, .producto4, .producto5, .producto6 {
   height: 210px;
   width: 220px;
@@ -83,50 +50,6 @@ main div img {
 
 .producto6 {
   grid-area: f6; }
-
-.fondoIndex {
-  width: 100%; }
-
-/*MAIN CONTACTO*/
-.mainContacto {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto auto auto;
-  grid-template-areas: "titulo titulo" "form telefono" "form mail";
-  justify-content: center;
-  align-items: center; }
-
-.tituContacto {
-  grid-area: titulo;
-  margin-left: 10px; }
-
-form {
-  grid-area: form;
-  margin-left: 10px; }
-
-.phoneContacto {
-  grid-area: telefono;
-  display: flex;
-  align-items: center; }
-
-.mailContacto {
-  grid-area: mail;
-  display: flex;
-  align-items: center; }
-
-/*MAIN PRODUCTOS*/
-.produ1, .produ2, .produ3, .produ4, .produ5, .produ6, .produ7, .produ8, .produ9, .produ10, .produ11, .produ12 {
-  height: 200px;
-  width: 200px;
-  border: 1px solid black; }
-
-.familia {
-  height: 400px;
-  width: 400px; }
-
-.ciudad {
-  height: 400px;
-  width: 400px; }
 
 /*TRAIGO FOOTER*/
 /*FOOTER*/

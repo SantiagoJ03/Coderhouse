@@ -13,18 +13,19 @@ header {
   margin-bottom: 10px; }
 
 header a {
-  margin-left: 15px; }
+  margin-left: 1rem; }
 
 nav ul {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
   nav ul li {
     list-style: none;
     padding-right: 9px;
     margin-left: 13px; }
-    nav ul li a {
+    nav ul li nav ul li a {
       text-decoration: none;
       color: #4d4dff; }
-      nav ul li a:hover {
+      nav ul li nav ul li a:hover {
         color: violet; }
 
 .navbar-collapse {
@@ -89,20 +90,20 @@ nav ul {
 
 .produ5 {
   height: 300px;
-  width: 320px;
+  width: 310px;
   grid-area: woman; }
 
 .produ6 {
   height: 300px;
-  width: 320px;
+  width: 310px;
   grid-area: man; }
 
 .produ7 {
   height: 300px;
-  width: 320px;
+  width: 310px;
   grid-area: kid; }
 
-/*MEDIA QUERIA MOBILE PRODUCTOS*/
+/*MEDIA QUERIA DESKTOP PRODUCTOS*/
 @media only screen and (min-width: 1024px) {
   .mainProductos {
     display: grid;
@@ -114,22 +115,19 @@ nav ul {
     grid-area: seccionA;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 20px; }
+    background-size: cover; }
   .seccionB {
     background-image: url("https://images.unsplash.com/photo-1496346776741-7297b9e34825?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
     grid-area: seccionB;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 20px; }
+    background-size: cover; }
   .seccionC {
     background-image: url("https://images.unsplash.com/photo-1601782744132-f08f10b3343e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
     grid-area: seccionC;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 20px; }
+    background-size: cover; }
   .mujer {
     grid-area: mujer;
     justify-self: center;

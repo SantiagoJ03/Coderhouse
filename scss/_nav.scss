@@ -10,23 +10,29 @@ header {
 	@include header(flex,space-between,center,wrap,10px);
 }
 header a {
-	margin-left: 15px;
+	margin-left: 1rem;
 }
 nav ul {
 	display: flex;
-	li{
-		list-style: none;
-		padding-right: 9px;
-		margin-left: 13px;
-		a{
+	flex-wrap: wrap;
+		li {
+			list-style: none;
+			padding-right: 9px;
+			margin-left: 13px;
+		nav ul li a{
 			text-decoration: none;
 			color: #4d4dff;
 			&:hover{
 				color: violet;
-			}
-		}
-	}
+	}	
+}		
+}	
 }
+
+
+
+
+
 .navbar-collapse {
 	justify-content: flex-end;
 }

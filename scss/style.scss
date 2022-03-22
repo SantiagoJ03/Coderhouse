@@ -1,6 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+
 }    
 /*TRAIGO NAV*/
 @import "nav";
@@ -95,21 +96,21 @@
 }
 .produ5 {
 	height: 300px;
-	width: 320px;
+	width: 310px;
 	grid-area: woman;
 }
 .produ6 {
 	height: 300px;
-	width: 320px;
+	width: 310px;
 	grid-area: man;
 }
 .produ7 {
 	height: 300px;
-	width: 320px;
+	width: 310px;
 	grid-area: kid;
 }
 
-/*MEDIA QUERIA MOBILE PRODUCTOS*/
+/*MEDIA QUERIA DESKTOP PRODUCTOS*/
 
 @media only screen and (min-width: 1024px){
 	.mainProductos {
@@ -126,7 +127,6 @@
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 20px;
 
 }
 .seccionB {
@@ -135,7 +135,6 @@
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 20px;
 
 }
 .seccionC {
@@ -144,7 +143,6 @@
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 20px;
 
 }
 .mujer {
